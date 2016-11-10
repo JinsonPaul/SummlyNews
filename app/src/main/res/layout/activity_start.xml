@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1000dp"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.jinson.irins.summlynews.StartActivity">
+
+
+        <ImageView
+            android:paddingTop="-5dp"
+            android:layout_width="2000dp"
+            android:id="@+id/image"
+            android:src="@drawable/startback"
+            android:layout_marginLeft="-200dp"
+            android:layout_height="match_parent"
+            />
+
+
+
+
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="400dp"
+        android:background="#FF0000"
+        android:text="ENTER"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:id="@+id/enter"/>
+
+
+
+</RelativeLayout>
